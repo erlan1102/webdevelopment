@@ -1,0 +1,35 @@
+@import "../libs/fontello/css/fontello.css";
+@import "../fonts/about/stylesheet.css";
+@import "../libs/wow/animate.css";
+@import "../libs/owlcarousel/owl.carousel.min.css";
+@import "../libs/owlcarousel/owl.theme.default.min.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Adobe Text Pro", sans-serif;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+.tabs__content {
+  display: none;
+}
+.tabs__content.active {
+  display: block;
+}
+$black : #212121;
+$green : #00897B;
+@import "column";
+@import "btn";
+@import "header";
+@import "home";
+@import "second";
+@import "services";
+@import "works";
+@import "pricing";
+@import "member";
+@import "blog";
+@import "overlay";

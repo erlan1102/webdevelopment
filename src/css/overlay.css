@@ -1,0 +1,50 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000090;
+  display: none;
+  z-index: 50;
+}
+.overlay__active {
+  display: block;
+}
+.overlay__popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+  background-color: #fff;
+}
+.overlay__close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: -50%;
+}
+.overlay__close:before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: rotate(45deg);
+  background-color: #000000;
+}
+.overlay__close:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: rotate(45deg);
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=overlay.css.map */

@@ -1,0 +1,27 @@
+.second{
+  padding: 126px 0 124px;
+  &__title{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  &__subtitle{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 124px;
+  }
+  &__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_card{
+      text-align: center;
+      width: 254px;
+      height: 201px;
+      &-title{
+        padding: 41px 0 21px;
+      }
+    }
+  }
+
+}
