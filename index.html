@@ -16,12 +16,12 @@
             <h1 class="header__logo wow bounce">Your Logo</h1>
             <div class="header__right">
                 <ul class="header__menu">
-                    <li class="header__list"><a class="header__link" href="">Home</a></li>
-                    <li class="header__list"><a class="header__link" href="">About</a></li>
-                    <li class="header__list"><a class="header__link" href="">Servicing</a></li>
-                    <li class="header__list"><a class="header__link" href="">Portfolio</a></li>
-                    <li class="header__list"><a class="header__link" href="">Blog</a></li>
-                    <li class="header__list"><a class="header__link" href="">Contact us</a></li>
+                    <li class="header__list"><a class="header__link" href="#home">Home</a></li>
+                    <li class="header__list"><a class="header__link" href="#second">About</a></li>
+                    <li class="header__list"><a class="header__link" href="#services">Servicing</a></li>
+                    <li class="header__list"><a class="header__link" href="#member">Portfolio</a></li>
+                    <li class="header__list"><a class="header__link" href="#blog">Blog</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Contact us</a></li>
                 </ul>
                 <i class="icon-search header__icon"></i>
             </div>
@@ -29,7 +29,7 @@
     </div>
 </header>
 <main class="main">
-    <section class="home">
+    <section id="home" class="home">
         <div class="container">
             <h2 class="home__title">Web development project</h2>
             <p class="home__subtitle">Very suitable to support all web development projects</p>
@@ -40,7 +40,7 @@
             <a href="" class="icon-down-open home__down"></a>
         </div>
     </section>
-    <section class="second">
+    <section id="second" class="second">
         <div class="container">
             <h3 class="second__title">About Us</h3>
             <p class="second__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -67,7 +67,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
         <div class="container">
             <h3 class="services__title">Our Services</h3>
             <p class="services__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -112,7 +112,7 @@
             </div>
         </div>
     </section>
-    <section class="works">
+    <section id="works" class="works">
         <div class="container">
             <h3 class="works__title">Latest Works</h3>
             <p class="works__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -314,7 +314,7 @@
             <button class="btn works__btn">VIEW ALL</button>
         </div>
     </section>
-    <section class="pricing">
+    <section id="pricing" class="pricing">
         <div class="container">
             <h3 class="pricing__title wow bounce">Pricing Plan</h3>
             <p class="pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -374,7 +374,7 @@
             </div>
         </div>
     </section>
-    <section class="member">
+    <section id="member" class="member">
         <div class="container">
             <h2 class="member__title">Our Team Member</h2>
             <p class="member__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -564,7 +564,7 @@
             </div>
             </div>
     </section>
-    <section class="blog">
+    <section id="blog" class="blog">
         <div class="container">
             <h2 class="blog__title">Blog</h2>
             <p class="blog__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br>
@@ -622,7 +622,13 @@
             <button class="btn blog__btn">MORE VIEW</button>
         </div>
     </section>
-
+    <section class="contact-us">
+        <div class="container">
+            <h2 class="contact-us__title">Contact Us</h2>
+            <p class="contact-us__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        </div>
+    </section>
     <div class="overlay">
         <div class="overlay__popup">
             <form action="" class="overlay__form">
@@ -647,9 +653,10 @@
             <div class="overlay__close"></div>
         </div>
     </div>
-    <section class="map">
-        <div id="map" style="width:100%; height:400px"></div>
-    </section>
+<!--    <section class="map">-->
+<!--        <div id="map" style="width:100%; height:400px"></div>-->
+<!--    </section>-->
+
     <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
     <script src="src/libs/wow/wow.js"></script>
     <script>

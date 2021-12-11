@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Adobe Text Pro", sans-serif;
+  scroll-behavior: smooth;
 }
 .container{
   max-width: 1170px;
@@ -33,3 +34,4 @@ $green : #00897B;
 @import "member";
 @import "blog";
 @import "overlay";
+@import "contact-us";
